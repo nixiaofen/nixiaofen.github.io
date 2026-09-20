@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400" role="img" aria-label="photo placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8eef6"/>
+      <stop offset="100%" stop-color="#cfd9e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#g)"/>
+  <circle cx="150" cy="158" r="52" fill="#1f3f6b" opacity="0.28"/>
+  <path d="M60 400c0-58 40-96 90-96s90 38 90 96z" fill="#1f3f6b" opacity="0.28"/>
+  <text x="150" y="372" text-anchor="middle" font-family="PingFang SC,Microsoft YaHei,sans-serif" font-size="15" fill="#5a6472">放一张形象照 · assets/img/avatar.jpg</text>
+</svg>
