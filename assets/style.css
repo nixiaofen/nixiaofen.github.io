@@ -177,6 +177,8 @@ h1 i{font-style:normal}
 .proj-shots figcaption{font-size:12px;color:var(--text-soft);margin-top:6px}
 .proj-links{display:flex;align-items:center;gap:14px;margin:0;flex-wrap:wrap}
 .proj-note{font-size:12px;color:var(--text-soft)}
+.portfolio-note{margin:36px auto 0;max-width:660px;text-align:center;font-size:15px;line-height:1.9;color:var(--text-soft);padding:18px 22px;border-top:1px dashed var(--line)}
+.portfolio-note .en{font-style:italic}
 
 /* ===== chips ===== */
 .skills-strip{margin-top:34px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
