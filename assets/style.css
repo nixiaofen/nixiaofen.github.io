@@ -1,27 +1,27 @@
 /* ===== tokens ===== */
 :root{
-  --bg:#ffffff;
-  --bg-alt:#f4f7fb;
+  --bg:#f7fbfa;
+  --bg-alt:#eaf5f2;
   --surface:#ffffff;
-  --text:#1a2230;
-  --text-soft:#5b6675;
-  --line:#e6ebf2;
-  --accent:#2b6cb0;
-  --accent-soft:#e7f0fa;
-  --gold:#c2a05a;
+  --text:#17262b;
+  --text-soft:#566b69;
+  --line:#dcebe8;
+  --accent:#0ea5a4;
+  --accent-soft:#d6f1ee;
+  --gold:#f4a261;
   --radius:14px;
-  --shadow:0 1px 2px rgba(16,24,40,.04), 0 8px 24px rgba(16,24,40,.06);
+  --shadow:0 1px 2px rgba(13,40,40,.04), 0 8px 24px rgba(13,40,40,.06);
 }
 body.dark{
-  --bg:#161b22;
-  --bg-alt:#1c232d;
-  --surface:#202834;
-  --text:#e6ebf2;
-  --text-soft:#9aa6b6;
-  --line:#2c3543;
-  --accent:#8fb8e8;
-  --accent-soft:#1f2b3d;
-  --gold:#d8b96a;
+  --bg:#0f181a;
+  --bg-alt:#15211f;
+  --surface:#16231f;
+  --text:#e6efed;
+  --text-soft:#9db0ad;
+  --line:#243531;
+  --accent:#2dd4bf;
+  --accent-soft:#13302c;
+  --gold:#f6b27a;
   --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
 }
 
