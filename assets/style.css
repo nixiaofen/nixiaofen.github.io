@@ -268,3 +268,13 @@ h1 i{font-style:normal}
   .tl-logo img{width:52px;height:52px}
   .section{padding:52px 0}
 }
+
+/* ===== scroll reveal ===== */
+.reveal-ready .section,
+.reveal-ready .footer{opacity:0;transform:translateY(28px);transition:opacity .6s cubic-bezier(.22,.61,.36,1),transform .6s cubic-bezier(.22,.61,.36,1);will-change:opacity,transform}
+.reveal-ready .section.visible,
+.reveal-ready .footer.visible{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){
+  .reveal-ready .section,
+  .reveal-ready .footer{opacity:1!important;transform:none!important;transition:none!important}
+}

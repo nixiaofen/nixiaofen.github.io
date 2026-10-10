@@ -50,4 +50,20 @@
   }
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
+
+  /* ---------- scroll reveal ---------- */
+  var revealEls = document.querySelectorAll('.section, .footer');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+    revealEls.forEach(function (el) { io.observe(el); });
+  } else {
+    revealEls.forEach(function (el) { el.classList.add('visible'); });
+  }
 })();
