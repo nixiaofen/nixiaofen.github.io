@@ -110,6 +110,11 @@ h1 i{font-style:normal}
 .sec-sub{color:var(--text-soft);font-size:15px;margin:14px 0 34px}
 .sec-sub i{font-style:italic;color:var(--accent)}
 .beyond-text{max-width:760px;margin:8px auto 0;text-align:center;font-size:15.5px;line-height:1.95;color:var(--text-soft)}
+.beyond-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center;margin-top:14px}
+.beyond-grid .beyond-text{margin:0;text-align:left}
+.beyond-photo{margin:0}
+.beyond-photo img{width:100%;height:auto;max-height:420px;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line)}
+@media(max-width:720px){.beyond-grid{grid-template-columns:1fr;gap:20px}.beyond-grid .beyond-text{text-align:center}.beyond-photo img{max-height:360px}}
 
 /* ===== stats ===== */
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:40px}
