@@ -1,5 +1,7 @@
 # 倪晓芬 · 个人主页
 
+> 🌐 **个人主页已上线，点击直接访问 → [https://nixiaofen.github.io](https://nixiaofen.github.io)**
+
 静态单页站点，纯 HTML / CSS / JS，无构建、无依赖。支持中英切换与深浅色切换。
 内容全部取自现有简历，未虚构任何事实。
 
