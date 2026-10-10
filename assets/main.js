@@ -32,11 +32,11 @@
   function setTheme(t) {
     body.classList.toggle('dark', t === 'dark');
     themeBtn.textContent = t === 'dark' ? '☀' : '◐';
-    try { localStorage.setItem('nx-theme', t); } catch (e) {}
+    try { localStorage.setItem('nx-theme-v2', t); } catch (e) {}
   }
 
   var savedTheme = 'dark';
-  try { savedTheme = localStorage.getItem('nx-theme') || 'light'; } catch (e) {}
+  try { savedTheme = localStorage.getItem('nx-theme-v2') || 'dark'; } catch (e) {}
   setTheme(savedTheme);
 
   themeBtn.addEventListener('click', function () {
