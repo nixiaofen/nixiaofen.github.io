@@ -1,27 +1,27 @@
 /* ===== tokens ===== */
 :root{
-  --bg:#fbfbfc;
-  --bg-alt:#f2f4f7;
+  --bg:#ffffff;
+  --bg-alt:#f4f7fb;
   --surface:#ffffff;
-  --text:#171a21;
-  --text-soft:#5a6472;
-  --line:#e4e7ec;
-  --accent:#1f3f6b;
-  --accent-soft:#e8eef6;
-  --gold:#b08d3f;
+  --text:#1a2230;
+  --text-soft:#5b6675;
+  --line:#e6ebf2;
+  --accent:#2b6cb0;
+  --accent-soft:#e7f0fa;
+  --gold:#c2a05a;
   --radius:14px;
   --shadow:0 1px 2px rgba(16,24,40,.04), 0 8px 24px rgba(16,24,40,.06);
 }
 body.dark{
-  --bg:#0e1116;
-  --bg-alt:#141922;
-  --surface:#171c25;
-  --text:#e8ebf0;
-  --text-soft:#99a3b1;
-  --line:#252c38;
-  --accent:#7fa6d8;
-  --accent-soft:#1b2534;
-  --gold:#d0ab5c;
+  --bg:#161b22;
+  --bg-alt:#1c232d;
+  --surface:#202834;
+  --text:#e6ebf2;
+  --text-soft:#9aa6b6;
+  --line:#2c3543;
+  --accent:#8fb8e8;
+  --accent-soft:#1f2b3d;
+  --gold:#d8b96a;
   --shadow:0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
 }
 
