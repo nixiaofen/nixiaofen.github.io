@@ -73,9 +73,21 @@ body.lang-en{font-family:"Helvetica Neue",-apple-system,"Segoe UI",Roboto,sans-s
 .lang-btn:hover,.theme-btn:hover{color:var(--accent);border-color:var(--accent)}
 
 /* ===== hero ===== */
-.hero{padding:64px 0 56px;background:
-  radial-gradient(circle at 1px 1px, color-mix(in srgb,var(--accent) 9%,transparent) 1px, transparent 0) 0 0/22px 22px,
-  linear-gradient(180deg,var(--accent-soft) 0%,var(--bg) 100%)}
+.hero{padding:64px 0 56px;color:#e2e8f0;background:
+  radial-gradient(circle at 1px 1px, rgba(59,130,246,.20) 1px, transparent 0) 0 0/22px 22px,
+  linear-gradient(180deg,#0f172a 0%,#0b1120 100%)}
+.hero .eyebrow{color:#60a5fa}
+.hero h1{color:#f1f5f9}
+.hero .hero-desc{color:#94a3b8}
+.hero .tag{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.16);color:#cbd5e1}
+.hero .tag:hover{color:#60a5fa;border-color:#60a5fa}
+.hero .hero-actions .btn{background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.18);color:#e2e8f0}
+.hero .hero-actions .btn:hover{border-color:#60a5fa;color:#60a5fa}
+.hero .hero-actions .btn-primary{background:#2563eb;border-color:#2563eb;color:#fff}
+.hero .hero-actions .btn-primary:hover{opacity:.92;color:#fff}
+.hero .social a{color:#94a3b8}
+.hero .social a:hover{color:#60a5fa}
+.hero .hero-photo img{border-color:rgba(255,255,255,.12);background:#0f172a}
 .hero-inner{display:grid;grid-template-columns:1.35fr .65fr;gap:48px;align-items:center}
 .eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.4px;color:var(--accent);margin:0 0 10px}
 .eyebrow::before{content:"// ";opacity:.75}
