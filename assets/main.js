@@ -53,11 +53,22 @@
 
   /* ---------- scroll reveal ---------- */
   var revealEls = document.querySelectorAll('.section, .footer');
+  var STAGGER = '.about-grid, .cards-2, .timeline, .projects, .stats, .chips';
+  function staggerIn(c) {
+    if (c.classList.contains('in')) return;
+    var kids = c.children;
+    for (var i = 0; i < kids.length; i++) {
+      kids[i].style.transitionDelay = (0.1 + i * 0.08) + 's';
+    }
+    c.classList.add('in');
+  }
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (e) {
         if (e.isIntersecting) {
           e.target.classList.add('visible');
+          var groups = e.target.querySelectorAll(STAGGER);
+          for (var g = 0; g < groups.length; g++) { staggerIn(groups[g]); }
           io.unobserve(e.target);
         }
       });
@@ -65,5 +76,6 @@
     revealEls.forEach(function (el) { io.observe(el); });
   } else {
     revealEls.forEach(function (el) { el.classList.add('visible'); });
+    document.querySelectorAll(STAGGER).forEach(function (el) { el.classList.add('in'); });
   }
 })();

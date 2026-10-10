@@ -274,7 +274,32 @@ h1 i{font-style:normal}
 .reveal-ready .footer{opacity:0;transform:translateY(28px);transition:opacity .6s cubic-bezier(.22,.61,.36,1),transform .6s cubic-bezier(.22,.61,.36,1);will-change:opacity,transform}
 .reveal-ready .section.visible,
 .reveal-ready .footer.visible{opacity:1;transform:none}
+
+/* ===== card-level stagger ===== */
+.reveal-ready .about-grid > *,
+.reveal-ready .cards-2 > *,
+.reveal-ready .timeline > *,
+.reveal-ready .projects > *,
+.reveal-ready .stats > *,
+.reveal-ready .chips > *{
+  opacity:0;transform:translateY(18px);
+  transition:opacity .5s cubic-bezier(.22,.61,.36,1),transform .5s cubic-bezier(.22,.61,.36,1);
+  will-change:opacity,transform;
+}
+.reveal-ready .about-grid.in > *,
+.reveal-ready .cards-2.in > *,
+.reveal-ready .timeline.in > *,
+.reveal-ready .projects.in > *,
+.reveal-ready .stats.in > *,
+.reveal-ready .chips.in > *{opacity:1;transform:none}
+
 @media (prefers-reduced-motion: reduce){
   .reveal-ready .section,
-  .reveal-ready .footer{opacity:1!important;transform:none!important;transition:none!important}
+  .reveal-ready .footer,
+  .reveal-ready .about-grid > *,
+  .reveal-ready .cards-2 > *,
+  .reveal-ready .timeline > *,
+  .reveal-ready .projects > *,
+  .reveal-ready .stats > *,
+  .reveal-ready .chips > *{opacity:1!important;transform:none!important;transition:none!important}
 }
