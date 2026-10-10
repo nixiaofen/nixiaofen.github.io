@@ -35,7 +35,7 @@
     try { localStorage.setItem('nx-theme', t); } catch (e) {}
   }
 
-  var savedTheme = 'light';
+  var savedTheme = 'dark';
   try { savedTheme = localStorage.getItem('nx-theme') || 'light'; } catch (e) {}
   setTheme(savedTheme);
 
