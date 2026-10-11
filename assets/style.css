@@ -192,6 +192,11 @@ h1 i{font-style:normal}
   background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
   padding:26px;box-shadow:var(--shadow);overflow:hidden;
 }
+.source-index{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px;box-shadow:var(--shadow);overflow:hidden;margin-top:22px;
+}
+.si-desc{font-size:14.5px;color:var(--text-soft);margin:0 0 16px}
 .proj-bar{
   display:flex;align-items:center;gap:7px;
   margin:-26px -26px 22px;
